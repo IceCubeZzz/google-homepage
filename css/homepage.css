@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    flex-direction: column;
+
+    font-size: 14px;
+    font-family: arial,sans-serif;
+}
+
+.main-link {
+    text-decoration: none;
+    color: #222;
+    padding: 5px;
+    margin: 0 5px;
+}
+
+.icon {
+    margin: 0 5px;
+}
+
+#profile-pic {
+    margin: 0 5px;
+    padding: 0px;
+}
+
+#top-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+#top-right-bar {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+}
+
+#middle-row {
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    justify-content: center;
+    max-height: 300px;
+    min-height: 100px;
+    height: 24vh;
+    box-sizing: border-box;
+}
+
+#lower-row {
+    display: flex;
+    flex-direction: row;
+}
+
+#logo {
+    flex-grow: 0;
+    flex-shrink: 0;
+    align-self: flex-end;
+}
+
+#profile-pic {
+    border-radius: 50%;
+}
