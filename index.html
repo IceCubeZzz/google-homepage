@@ -19,20 +19,35 @@
         <img id="logo" src="images/google-logo.png" alt="google logo">
     </div>
     <div id="lower-row">
-        <div class="search-bar">
-            <form id="search-form">
-                <input type="text" id="search-bar" name="search-bar">
-            </form>
+        <div id = "search-section">
+            <div id="search-bar">
+                <img class="icon" id="search-icon" src="images/search-gray.svg" alt="search logo">
+                <form id="search-form">
+                    <input type="text" id="search-input" name="search-input">
+                </form>
+            </div>
+            <div id="search-buttons">
+                <button class="button" type="submit" form="search-form" value="search">Google Search</button>
+                <button class="button" type="submit" form="search-form" value="feeling-lucky">I'm Feeling Lucky</button>
+            </div>
         </div>
-        <button class="button" type="submit" form="search-form" value="search">Google Search</button>
-        <button class="button" type="submit" form="search-form" value="feeling-lucky">I'm Feeling Lucky</button>
+    </div>
+    <div class="empty-space">
     </div>
     <footer>
-        <a class="main-link" href="https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
-        <a class="main-link" href="https://smallbusiness.withgoogle.com/?subid=us-en-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=us-en_US-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u">Business</a>
-        <a class="main-link" href="https://www.google.com/search/howsearchworks/?fg=1">How Search Works</a>
-        <a class="main-link" href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a>
-        <a class="main-link" href="https://policies.google.com/terms?hl=en&fg=1">Terms</a>
-        <a class="main-link" href="">Settings</a>
+        <div id="footer-box">
+            <div id="left-footer">
+                <a class="footer-link" href="https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
+                <a class="footer-link" href="https://smallbusiness.withgoogle.com/?subid=us-en-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=us-en_US-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u">Business</a>
+                <a class="footer-link" href="https://www.google.com/search/howsearchworks/?fg=1">How Search Works</a>
+            </div>
+            <div id="center-footer">
+            </div>
+            <div id="right-footer">
+                <a class="footer-link" href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a>
+                <a class="footer-link" href="https://policies.google.com/terms?hl=en&fg=1">Terms</a>
+                <a class="footer-link" href="">Settings</a>
+            </div>
+        </div>
     </footer>
 </body>
